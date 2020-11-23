@@ -1,4 +1,5 @@
 import React from 'react';
+import { LinkContainer } from 'react-router-bootstrap';
 import {
   Button,
   FormControl,
@@ -7,22 +8,31 @@ import {
   Nav,
   Container,
 } from 'react-bootstrap';
+import { Link } from 'react-router-dom';
 
 export const Header = () => {
   return (
     <header>
       <Navbar bg='dark' variant='dark' expand='lg' collapseOnSelect>
         <Container>
-          <Navbar.Brand href='/'>Halloween Haunt</Navbar.Brand>
+          <LinkContainer to='/'>
+            <Navbar.Brand >Halloween Haunt</Navbar.Brand>
+          </LinkContainer>
+          
           <Navbar.Toggle aria-controls='basic-navbar-nav' />
           <Navbar.Collapse id='basic-navbar-nav'>
             <Nav className='ml-auto'>
-              <Nav.Link href='/cart'>
+            <LinkContainer to='/cart' >
+              <Nav.Link >
                 <i classsName='fas fa-shopping-cart'></i>Cart
               </Nav.Link>
-              <Nav.Link href='/login'>
+            </LinkContainer>
+            <LinkContainer to='/login'>
+             <Nav.Link >
                 <i classsName='fas fa-user'></i>Sign In
               </Nav.Link>
+            </LinkContainer>
+              
             </Nav>
           </Navbar.Collapse>
         </Container>
