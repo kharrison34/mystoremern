@@ -1,6 +1,6 @@
 const products = [
   {
-    _id: '1',
+    
     name: 'Classic Plague Doctor',
     image: '/images/classic-plague.jpg',
     description:
@@ -13,7 +13,7 @@ const products = [
     numReviews: 12,
   },
   {
-    _id: '2',
+   
     name: 'Darth Vader',
     image: '/images/darthVader.jpg',
     description: 'With this costume the galaxy awaits in fear.',
@@ -25,7 +25,7 @@ const products = [
     numReviews: 8,
   },
   {
-    _id: '3',
+    
     name: 'Egyption Goddess',
     image: '/images/egyptian-goddess-costume.jpg',
     description: 'Rule the nile as this egyption goddess',
@@ -37,7 +37,7 @@ const products = [
     numReviews: 12,
   },
   {
-    _id: '4',
+    
     name: 'Flapper girl',
     image: '/images/flapperGirl.jpg',
     description:
@@ -50,7 +50,7 @@ const products = [
     numReviews: 7,
   },
   {
-    _id: '5',
+    
     name: 'Ghost Buster Lady',
     image: '/images/ghostBustersW.jpg',
     description: 'Make sure you dont cross steams ',
@@ -62,7 +62,7 @@ const products = [
     numReviews: 10,
   },
   {
-    _id: '6',
+    
     name: 'Goku',
     image: '/images/goku.jpg',
     description: 'Help save the earth with the rest of the z-fighters',
@@ -74,7 +74,7 @@ const products = [
     numReviews: 4,
   },
   {
-    _id: '7',
+    
     name: 'Master Roshi',
     image: '/images/master-roshi.jpg',
     description: 'Bring out your energy ray',
@@ -86,7 +86,7 @@ const products = [
     numReviews: 15,
   },
   {
-    _id: '8',
+
     name: 'Prince',
     image: '/images/purple-rock-legend.jpg',
     description: 'Take out your red corvette',
@@ -98,7 +98,7 @@ const products = [
     numReviews: 16,
   },
   {
-    _id: '9',
+    
     name: 'Classic Rapper',
     image: '/images/rapper.jpg',
     description: 'It is hammer time tonight',
@@ -110,7 +110,7 @@ const products = [
     numReviews: 3,
   },
   {
-    _id: '10',
+  
     name: 'Samurai Warrior',
     image: '/images/samurai-warrior.jpg',
     description: 'Help the shogun with this costume',
@@ -122,7 +122,7 @@ const products = [
     numReviews: 2,
   },
   {
-    _id: '11',
+   
     name: 'The last Centurian ',
     image: '/images/spartan-warrior.jpg',
     description: 'This noble fighter defends all.',
@@ -134,7 +134,7 @@ const products = [
     numReviews: 5,
   },
   {
-    _id: '12',
+   
     name: 'spiderWoman',
     image: '/images/spiderWoman.jpg',
     description: 'This slick web slinger has all the moves',
@@ -146,7 +146,7 @@ const products = [
     numReviews: 5,
   },
   {
-    _id: '13',
+    
     name: 'Velma',
     image: '/images/velma.jpg',
     description: 'OH jinkies I have a clue ',
@@ -158,7 +158,7 @@ const products = [
     numReviews: 7,
   },
   {
-    _id: '14',
+    
     name: 'Plague Doctor Lady',
     image: '/images/womens-plague.jpg',
     description: 'Help save your community',
@@ -170,7 +170,7 @@ const products = [
     numReviews:8,
   },
   {
-    _id: '15',
+    
     name: 'Dr. Evil',
     image: '/images/drEvil.jpg',
     description: 'We ask for 100 Billion Dollars',
@@ -182,7 +182,7 @@ const products = [
     numReviews: 12,
   },
   {
-    _id: '14',
+   
     name: 'Top Gun Pilot',
     image: '/images/topGun.jpg',
     description: 'Find your Maverick',
